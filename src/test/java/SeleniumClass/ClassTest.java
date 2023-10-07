@@ -22,6 +22,7 @@ public class ClassTest {
 		System.out.println("URL is....."+driver.getCurrentUrl());
 		System.out.println("Title after back is ......"+ driver.getTitle());
 		driver.navigate().forward();
+		driver.close();
               
 	}
 
